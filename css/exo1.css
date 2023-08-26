@@ -3,28 +3,20 @@
  * Il faut respecter aussi le gras, l'italique, la largeur des paragraphes…
  */
 
-#aToiDeJouer{
-    display: inline-flex;
-    font-size: 20.5px;
-    font-weight: 100;
+ #aToiDeJouer {
+    display: flex;
+    gap: 1.5rem;
+ }
 
-}
-
-p {
+ p {
     margin-bottom: 1rem;
-}
+ }
 
-em {
+ em {
     font-style: italic;
-    font-weight: lighter;
-}
+    font-weight: 300;
+ }
 
-strong {
+ strong {
     font-weight: bold;
-}
-
-div{
-    margin-right: 3rem;
-    width: 100%;
-}
-
+ }
