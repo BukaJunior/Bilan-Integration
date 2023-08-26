@@ -2,30 +2,29 @@
  * Le drapeau aux étoiles vicieuses
  * Un tour au panama ?
  */
-
-.flag{
-    display: inline-flex;
+.flag {
+    display: flex;
     flex-wrap: wrap;
+}
+
+.rouge {
+    background-color: RGB(210, 16, 52);
+    width: 50%;
+    height: 50%;
+}
+
+.bleu {
+    background-color: RGB(0, 82, 147);
+    width: 50%;
+    height: 50%;
 }
 
 .blanc {
     background-color: white;
     width: 50%;
     height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
-
-
-.carreaurouge{
-    background-color: red;
-    width: 25%;
-    height: 50%;
-}
-
-.carreaubleu{
-    border-bottom: 1px solid;
-    border-left: 1px solid ;
-    border-right: 1px solid;
-    background-color: blue;
-}
-
-
