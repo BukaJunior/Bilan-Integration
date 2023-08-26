@@ -1,3 +1,7 @@
 /*
  * Le losange de la délivrance
  */
+#wrap {
+    display: flex;
+    justify-content: center;
+}
