@@ -4,44 +4,57 @@
  * Pour les codes couleurs, il faut aller les récupérer directement sur le logo de Google !
  * En bonus, au survol de la souris, on grossit aussi le rond et il met 1 seconde pour atteindre la nouvelle "taille"
  */
-
-
-
-
-.loading{
-    border: 1px solid black;
-    padding: 15% 15%;
-    display: flex;
+section {
+    width: 60%;
+    margin: 0 auto;
 }
 
+.loading {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 5rem;
+    height: 10vh;
+}
 
+.loading__circle {
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    transition: all .5s ease-in-out;
+}
 
 .loading__circle--color-blue{
     background-color: grey;
-    border-radius: 50%;
-    padding: 2rem;
-    font-size: 20px;
+    /* transition: all 1s ease-in-out; */
 }
-
-
+.loading__circle--color-blue:hover{
+    transform: scale(1.5);
+    background-color: #4285F4;
+}
 
 .loading__circle--color-red{
     background-color: grey;
-    border-radius: 50%;
-    padding: 2rem;
-    font-size: 20px;
+}
+.loading__circle--color-red:hover{
+    transform: scale(1.5);
+    background-color: #EA4335;
 }
 
 .loading__circle--color-yellow{
     background-color: grey;
-    border-radius: 50%;
-    padding: 2rem;
-    font-size: 20px;
+}
+.loading__circle--color-yellow:hover{
+    transform: scale(1.5);
+    background-color: #FBBC05;
 }
 
 .loading__circle--color-green{
     background-color: grey;
-    border-radius: 50%;
-    padding: 2rem;
-    font-size: 20px;
+}
+.loading__circle--color-green:hover{
+    transform: scale(1.5);
+    background-color: #34A853;
 }
